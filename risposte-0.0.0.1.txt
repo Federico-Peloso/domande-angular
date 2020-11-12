@@ -1,0 +1,18 @@
+1 - Cos’è la Angular CLI?
+
+	la Angular CLI è un utility per sviluppare delle app
+
+
+2 - Cos’è gitpod?
+
+	gitpod è una macchina è una macchina virtuale che simula visual studio code in versione online
+
+
+3 - Come posso vedere l’elenco dei repository remoti?
+	
+	git remote -v
+
+
+4 - Qual è il comando per creare una nuova applicazione angular
+
+	ng new angular gitpod

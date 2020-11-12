@@ -1,0 +1,131 @@
+1 - Qual è il comando per installare la angular cli?
+
+	npm i -g @angular/cli
+.
+
+
+2 - Cosa contiene la pagina index.html?
+
+
+	la pagina index.html contiene uno schema base di una pagina html, quindi <head>, <body>... nel body contiene il tag <app-root>.
+
+
+3 - Cos’è l’app-root?
+
+	Il tag app-root è il luogo in cui verrà renderizzata la nostra applicazione, è un componente definito
+	dalla nostra applicazione Angular.
+
+
+4 - Come si avvia un progetto angular?
+
+	 un nuovo progetto angular si avvia col seguente comando: ng new angular-hello-world (con il nome del progetto).
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1 - Come si crea un nuovo componente?
+
+	Per creare un nuovo componente si utilizza la Angular CLI, attraverso il comando ng generate -> ng generate component nome-componente.
+
+
+
+2 - A cosa serve il codice import?
+
+	Il codice import seve per dichiarare le dipendenze.
+
+
+
+3 - A cosa serve i decoratore @Component?
+	
+	serve per dichiarare un componente.
+
+
+	- A cosa serve specificare il templateUrl?
+
+		serve per specificarei l percorso del template html da utilizzare.
+
+
+
+ 	- Lo styleUrl?
+
+		serve per specificare il percorso del foglio di stile da utilizzare.
+
+
+
+ 	- Il selector?
+
+		serve per specificare il nome del del tag del nuovo componente.
+
+
+
+4 - Come si aggiunge un nuovo componente all’app component?
+
+	 aggiungendo il tag componente a un modello già esistente.
+
+
+
+5 - Scrivi sul quaderno uno schema che contenga il codice di un componente  e di tutti i file a cui fa riferimento
+
+@Component({
+  selector: 'prova-componente',
+  templateUrl: './prova-componente.component.html',
+  styleUrls: ['./prova-componente.component.css']
+})
+
+
+
+6 - A cosa serve il simbolo {{ }} nel template html?
+
+	serve per inserire le variabili passate in modo dinamico.
+
+
+
+7 - cos'è un controller?
+
+	il controller assolve il ruolo di creare un collegamento tra il model (la fonte dei dati) e la view (la presentazione).
+
+
+
+8 - Da cosa è composta un’applicazione Angular?
+
+	un'applicazione angular è composta da una gerarchia di componenti.
+
+
+
+9 - Descrivi le funzionalità riassunte nella seguente immagine (descrivi ogni rettangolo)
+
+	{{ nove_variabile }} serve per inserire delle variabili passate dal server in modo dinamico.
+
+	{{ nome_variabile | uppercase }} serve per trasformare in maiuscolo la stringa contenuta nella variabile.
+ 	
+	h1 {
+	  color:red  -> serve per colorare di rosso tutti gli H1 presenti nella pagina.
+	}
+
+
+
+
+10 - Qual è la convenzione per la nomenclatura dei seguenti file che costituiscono un componente?
+
+	app.component.ts
+	app.component.html
+	app.component.css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
