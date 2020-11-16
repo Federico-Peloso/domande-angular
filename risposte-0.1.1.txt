@@ -1,0 +1,28 @@
+1 - Come si dichiara una proprietà di una classe (variabile visibile a tutta la classe) in Angular?
+
+	una proprietà di una classe si dichiara digitando 'nomeProprietà: tipo', per esempio: 'name: string;'
+
+
+
+2 - Come si dichiara un costruttore?
+
+	un costruttore di una classe si dichiara in questo modo: constructor() { 
+
+								 }
+
+
+3 - cos'è un costruttore:
+
+	un costruttore è una funzione chiamata ogni volta che creiamo nuove istanze di una classe.
+
+
+
+4 - Secondo te, quando viene creata l’istanza di una classe Angular?
+
+	quando si inserisce il nuovo componente all'interno del template (<nome-componente></nome-componente>), si crea automaticamente un'istanza della classe associata al componente
+
+
+
+5 - Come si aggiunge una proprietà (o variabile) al template HTML?
+
+	si aggiunge digitando il nome della variabile all'interno delle parentesi graffe.
