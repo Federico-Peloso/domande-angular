@@ -1,0 +1,98 @@
+
+1. Come si dichiara un vettore in una classe Angular?
+
+	- Un vettore si dichiara in questo modo: 'nomeVettore: tipo[];' esempio: 'names: string[];'
+
+
+
+2. Come lo si può riempire?
+
+	- Un vettore di una classe si può riempire con il seguente codice: this.nomeVettore = ['elemento1', 'elemento2', 'elemento3']
+
+
+
+3. Dato il seguente codice <li *ngFor="let name of names">Hello {{ name }}</li>?
+
+
+	A. Cos'è il tag <li>?
+
+		- Il tag <li> è un elemento della lista <ul> (lista non ordinata)
+
+
+	B. A cosa serve il simbolo '*'?
+
+		- Il simbolo '*' dice che vogliamo usare la direttiva ngFor per questo attributo
+
+
+
+	C. Cos'è un elemento DOM?
+
+		- Un elemento DOM è un qualsiasi elemento in una pagina WEB, per esempio <div>, <ul> <h1>...
+
+
+	D. Cosa fa la stringa "let name of names"?
+
+		- La stringa 'let name of names' serve per iterare ogni elemento del array 'names'
+
+		
+		I. Cos'è names?
+
+			- 'names' è l array che viene passato
+
+
+		II. Cosa fa 'let name'?
+
+			- 'let name' assegna alla variabile 'name' l'elemento che si sta iterando, per esempio, se il vettore è di 5 elementi, 'name' assumerà il valore di ogni elemento per ogni ciclo (primo ciclo: name = names[0], secondo ciclo: name = names[1] e così via)
+
+
+
+4. Riscrivi il ciclo sopra supponendo di avere un vettore che si chiama cars e usando una variabile di ciclo che si chiama c
+
+	- <li *ngFor="let c of cars">Hello {{ c }}</li>
+
+
+
+
+
+
+1. Rispetto al componente figlio (user-item)
+
+
+	A. A cosa serve il decoratore '@Input'?
+
+		- Il decoratore'@input' serve per trasmettere i dati al componente figlio.
+
+
+
+	B. Come si importa?
+
+		- Si importa inserendo 'Input' tra gli elementi importati (import {Input} from '@angular/core')
+
+
+
+	C. Come si associa a una variabile?
+
+		- Si associa con il seguende codice: '@Input() name: string;'
+
+
+
+
+2. Rispetto al componente padre (user-list)
+
+
+	A. Come si passa un valore a un componente filgio?
+
+		- Utilizzando il decoratore @Input
+
+
+
+
+3. Riscrivi il seguente codice rispettando questi vincoli
+
+<ul>
+ <li *ngFor="let bu of bravo">
+    <app-user-gionny [pupa]="bu">
+    </app-user-gionny>
+  </li>
+</ul
+
